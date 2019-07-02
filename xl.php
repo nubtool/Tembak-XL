@@ -36,7 +36,6 @@ function getserviceid(){
   		'19 Xtra Kuota Streaming&Chat ngabuburit 1hr',
   		'20 Xtra Kuota Streaming&Chat ngabuburit 3hr',
   		'21 Xtra Kuota Streaming&Chat ngabuburit 7hr';
-  		'22 Xl Iflix Wa,youtube 30hr';
 	foreach($list as $lists){
 		echo "$lists\n";
 	}
@@ -108,9 +107,6 @@ function getserviceid(){
 		case '21' :
 			$serviceid = 8211389;
 			break;
-                case '22' :
-              $serviceod = 8110671;
-               break;
 		}
 	return $serviceid;
 }
