@@ -109,8 +109,8 @@ function getserviceid(){
 			$serviceid = 8211389;
 			break;
                 case '22' :
-                        $serviceod = 8110671;
-                        break;
+              $serviceod = 8110671;
+               break;
 		}
 	return $serviceid;
 }
